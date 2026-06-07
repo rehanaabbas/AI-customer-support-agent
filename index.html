@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech7 Academy AI Support</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+```
+<div class="left-section">
+
+    <h1>Tech7 Academy</h1>
+
+    <h2>Learn Future-Proof Skills with AI</h2>
+
+    <p>
+        Tech7 Academy empowers students and professionals through
+        cutting-edge training in AI Agents, AI Automation,
+        E-Commerce, Freelancing, Digital Marketing, and Web Development.
+    </p>
+
+    <div class="course-box">
+        <h3>Popular Programs</h3>
+
+        <ul>
+            <li>Master AI Agents</li>
+            <li>AI Calling Agents</li>
+            <li>AI Chatbots</li>
+            <li>Prompt Engineering</li>
+            <li>AI-Powered E-Commerce</li>
+            <li>Digital Marketing</li>
+            <li>Freelancing</li>
+            <li>Web Development</li>
+        </ul>
+    </div>
+
+    <div class="contact-box">
+        <h3>Contact Information</h3>
+
+        <p><strong>Location:</strong> Lahore, Pakistan</p>
+
+        <p><strong>Phone:</strong> +92 319 1667325</p>
+
+        <p><strong>Email:</strong> info@tech7academy.com</p>
+    </div>
+
+</div>
+
+<div class="right-section">
+
+    <h2>AI Support Assistant</h2>
+
+    <p>Ask about admissions, courses, certificates, fees, timings, and more.</p>
+
+    <form method="POST">
+
+        <textarea
+            name="message"
+            placeholder="Type your question here..."
+            required></textarea>
+
+        <button type="submit">Send</button>
+
+    </form>
+
+    {% if response %}
+    <div class="response">
+        <h3>Assistant Response</h3>
+        <p>{{ response }}</p>
+    </div>
+    {% endif %}
+
+</div>
+```
+
+</div>
+
+</body>
+</html>

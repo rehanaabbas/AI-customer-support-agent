@@ -1,0 +1,99 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f5f7fa;
+}
+
+.container {
+display: flex;
+min-height: 100vh;
+}
+
+.left-section {
+width: 65%;
+padding: 50px;
+background: linear-gradient(135deg, #0f172a, #1e293b);
+color: white;
+}
+
+.left-section h1 {
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+.left-section h2 {
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+.left-section p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+.course-box,
+.contact-box {
+background: rgba(255,255,255,0.1);
+padding: 20px;
+margin-top: 25px;
+border-radius: 12px;
+}
+
+.course-box ul {
+padding-left: 20px;
+}
+
+.course-box li {
+margin-bottom: 10px;
+}
+
+.right-section {
+width: 35%;
+background: white;
+padding: 30px;
+box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+}
+
+.right-section h2 {
+text-align: center;
+color: #2563eb;
+}
+
+textarea {
+width: 100%;
+height: 130px;
+padding: 12px;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 15px;
+resize: none;
+}
+
+button {
+width: 100%;
+padding: 12px;
+margin-top: 15px;
+background: #2563eb;
+color: white;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #1d4ed8;
+}
+
+.response {
+margin-top: 20px;
+padding: 15px;
+background: #eff6ff;
+border-left: 5px solid #2563eb;
+border-radius: 8px;
+}
+
+.response h3 {
+margin-top: 0;
+}
+
